@@ -2,6 +2,7 @@
     "name": "rest-practice",
     "version": "1.0.0",
     "description": "",
+    
     "main": "backend/app.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
