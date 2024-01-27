@@ -32,7 +32,7 @@ PUT https://cse341-assignment2-grii.onrender.com/contacts/65b58a26daa7f606e8305a
 content-type: application/json
 
 {
-"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
+"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Blue", "birthday":"06/12/20"
 }
 
 ### DELETE contact 
