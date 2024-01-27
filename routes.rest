@@ -1,12 +1,12 @@
 GET http://localhost:8080/contacts
 
 ### Create contact 
-POST http://localhost:8080/contacts 
+POST http://localhost:8080/contacts HTTP/1.1 
 content-type: application/json
+
 {
 "firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
 }
-
 ### PUT contact 
 PUT http://localhost:8080/contacts/65ac3b7b8f9b91be3b1e35ec 
 content-type: application/json
@@ -17,19 +17,23 @@ content-type: application/json
 ### DELETE contact 
 DELETE http://localhost:8080/contacts/65ac3ba18f9b91be3b1e35ed 
 
-### Create contact 
-POST https://cse341-assignment2-grii.onrender.com/contacts/ 
-content-type: application/json
+################################################################################
+
+ ### Create contact 
+ POST https://cse341-assignment2-grii.onrender.com/contacts HTTP/1.1 
+ content-type: application/json
+
 {
 "firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
 }
 
 ### PUT contact 
-PUT https://cse341-assignment2-grii.onrender.com/contacts/65ac3b7b8f9b91be3b1e35ec 
+PUT https://cse341-assignment2-grii.onrender.com/contacts/65b58a26daa7f606e8305aeb HTTP/1.1 
 content-type: application/json
+
 {
 "firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
 }
 
 ### DELETE contact 
-DELETE https://cse341-assignment2-grii.onrender.com/contacts/65ac3ba18f9b91be3b1e35ed 
+DELETE https://cse341-assignment2-grii.onrender.com/contacts/65b58eaedaa7f606e8305aec HTTP/1.1
