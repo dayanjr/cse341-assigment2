@@ -22,12 +22,18 @@ const getSingle = async (req, res, next) => {
   });
 };
 const createContact = async (req, res) => {
+  console.log('Received a POST request to create a contact.');
   const contact = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     email: req.body.email,
     favoriteColor: req.body.favoriteColor,
     birthday: req.body.birthday
+    //firstName:"Ashley", 
+    //lastName:"Weaver", 
+    //email:"aWeaver@test.com",
+    // favoriteColor:"Brown", 
+    // birthday:"06/19/2000"
   };
   const response = await mongodb.getDb().db("User").collection('Contacts').insertOne(contact);
   if (response.acknowledged) {
