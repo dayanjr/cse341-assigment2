@@ -1,1 +1,15 @@
 GET http://localhost:8080/contacts
+
+### Create contact POST https://cse341-assignment2-grii.onrender.com/contacts/65ac3b5e8f9b91be3b1e35eb HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+}
+
+### PUT contact PUT https://cse341-assignment2-grii.onrender.com/contacts/65ac3b7b8f9b91be3b1e35ec HTTP/1.1 content-type: application/json
+
+{
+"firstName":"Sarah", "lastName":"Birch", "email":"sarahB@gmail.com", "favoriteColor":"Yellow", "birthday":"06/12/20"
+}
+
+### DELETE contact DELETE https://cse341-assignment2-grii.onrender.com/contacts/65ac3ba18f9b91be3b1e35ed HTTP/1.1
