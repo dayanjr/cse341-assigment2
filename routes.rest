@@ -24,7 +24,7 @@ DELETE http://localhost:8080/contacts/65ac3ba18f9b91be3b1e35ed
  content-type: application/json
 
 {
-"firstName":"Ashley", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
+"firstName":"Miguel", "lastName":"Weaver", "email":"aWeaver@test.com", "favoriteColor":"Brown", "birthday":"06/19/2000"
 }
 
 ### PUT contact 
